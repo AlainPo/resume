@@ -7,7 +7,9 @@
 }
 
 body {
-    background: rgba(70, 130, 180, 0.3);
+    /* background: rgba(70, 130, 180, 0.3); */
+    height: 100%;
+    background: linear-gradient( rgba(70, 130, 180, 0.3), #77a0c2a4);
     color: #264040;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
@@ -145,16 +147,25 @@ a {
         margin-top: 1vw;
         max-width: 90%;
     }
-
+    h1 {
+        text-align: center;
+    }
     body {
-        font-size: 3vw;
+        font-size: 5vw;
         letter-spacing: 0px;
         font-weight: normal;
     }
-    #skills h2, #caption, #caption .sm, .mes{
-        font-size: 3vw;
+    #skills h2, #caption h4{
+        font-size: 5vw;
+        margin-top: 10;    
+        padding-top: 5vw;
+    }
+
+
+    #caption ul, #caption .sm, table{
+        font-size: 4vw;
         letter-spacing: 0px;
-        margin-top: 3vw;    
+        margin-top: 2vw;    
     }
     .block1{
         display: block;
@@ -165,22 +176,25 @@ a {
     }
     .mes {
         padding-left: 0px;
+        max-width:70vh;
+        box-sizing: border-box;
+        display: block;
+        margin-top: 5vh;
+        margin-bottom: 1vh;
     }
     img, .mes input, .mes textarea, .btn  {
-        width: 40vw;
-        /* height: auto; */
+        width: 60vw;
         display: block;
         margin: 1vw auto;
-        margin-bottom: 1vw;
-        font-size: 3vw;
+        /* margin-bottom: 1vw; */
+        font-size: 4vw;
         letter-spacing: 0px;
     }
     .mes input, .btn{
-        height: 10vw;
+        height: 15vw;
     }
     .mes textarea {
-        height: 20vw;
-
+        height: 15vw;
     }
-    
+
 }
