@@ -104,10 +104,20 @@ a {
     box-sizing: border-box;
     display: block;
     margin: 50px auto;
+    position: relative;
+}
+#wrapper{
+    height:100%
+
 }
 
 .mes h3{
     text-align: center; 
+}
+#content {
+    box-sizing: border-box;
+    min-height: 100%;
+    padding-bottom: 90px;
 }
 
 .mes input, .mes textarea {
@@ -121,6 +131,7 @@ a {
     border-width: 0;
     margin-bottom: 10px;
     width: 100%;
+
 }
 
 .btn {
